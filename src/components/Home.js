@@ -5,9 +5,9 @@ function Home() {
     return (
         <div className='home'>
             <div className='personalView'>
-                <h2>Quote of some kind! And some more words yay</h2>
-                <h6>--name of person</h6>
-                <p>I like this quote because of some thing that happened one time in my life and things and stuff where things happened for some kinda reason.</p>
+                <h2>I learned to always take on things I'd never done before. Growth and Comfort do not coexist.</h2>
+                <h6>--Ginni Rometty</h6>
+                <p>For the longest time I was afraid of change, addicted to comfort and afraid to lose what I already had. Even if I could gain something better, I was afraid of failing. But then I realized as long as I stayed afraid and stay somewhere I was only 'fine' with, I was already failing myself. So I took the first step to move forward. Each step brought me closer and closer until I finally made it to where I am today, and I'm happy.</p>
             </div>
             <div className='about'>
                 <div className='profileImage'></div>
