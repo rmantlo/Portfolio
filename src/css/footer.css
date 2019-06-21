@@ -1,0 +1,82 @@
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background:rgb(255, 255, 255, 0.8);
+    margin: 20px 5vw;
+    box-shadow: 1px 2px 5px black;
+
+}
+.sources{
+    padding: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding-top: 50px;
+}
+.sources ul{
+    margin: 0;
+}
+.sources li{
+    list-style: none;
+    text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.sources a{
+    text-decoration: none;
+    color: rgb(132, 80, 151);
+}
+.sources a:hover{
+    color: rgb(207, 131, 235);
+}
+.contactInputs{
+    display:flex;
+    flex-direction: row;
+}
+.nameInput{
+    width:100%;
+    margin-right:5px;
+}
+.emailInput{
+    width: 100%;
+    margin-left:5px;
+}
+.containerr{
+    margin: 10px 10px;
+    width: 50vw;
+}
+.containerr h2{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+footer{
+    padding: 10px;
+    background: grey;
+}
+footer a{
+    color: goldenrod;
+}
+footer a:hover{
+    color: gold;
+}
+footer img{
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+footer span{
+    color: darkgrey;
+}
+@media only screen and (max-width: 700px){
+    .contact{
+        flex-direction: column;
+    }
+    .containerr{
+        width: 85vw;
+    }
+}
+form button{
+    background: grey;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+}

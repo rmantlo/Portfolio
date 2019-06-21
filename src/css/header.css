@@ -1,0 +1,41 @@
+body{
+    background-image: url('../img/lightbulb.jpeg');
+    background-size: cover;
+}
+header h1 {
+    position: absolute;
+    top: 30vh;
+    left: 0;
+    right: 0;
+    font-family: 'Great Vibes', cursive;
+    color: white;
+    font-size: 8vw;
+    text-shadow: 1px 1px 1px black;
+}
+
+header h4 {
+    position: absolute;
+    top: 50vh;
+    left: 0;
+    right: 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 2vw;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+@media only screen and (max-width: 800px) {
+    header h1 {
+        font-size: 40pt;
+    }
+    header h4 {
+        font-size: 14pt;
+    }
+}
+
+header canvas {
+    height: 85vh !important;
+    background-image: url('../img/beach-clouds-dawn-788434.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
