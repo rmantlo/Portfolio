@@ -33,7 +33,7 @@ const tileData = [
     cols: 1,
   },
   {
-    img: "assets/api.png",
+    img: "assets/API.png",
     title: 'Amiibo API',
     description: 'Website manipulating api to display nintendo amiibo information',
     url: 'https://amiibodirectoryapi.firebaseapp.com/',
