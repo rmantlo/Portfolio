@@ -3,6 +3,7 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     margin: 50px 7vw;
+    padding: 25px 10px;
 }
 .personalView {
     margin: 0  0 50px 0;
