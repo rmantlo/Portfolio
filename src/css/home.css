@@ -3,11 +3,10 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     margin: 50px 7vw;
-    padding: 25px 10px;
 }
 .personalView {
     margin: 0  0 50px 0;
-    padding: 10px;
+    padding: 25px 10px;
     text-align: left;
     color: black;
     background: rgb(255, 255, 255, 0.8);
@@ -29,6 +28,7 @@
     font-family: 'Source Sans Pro', sans-serif;
     padding: 10px 5vw;
     margin: 0;
+    color: rgb(102, 102, 102);
 }
 #personalView {
     font-family: 'Source Sans Pro', sans-serif;
