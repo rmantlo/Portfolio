@@ -36,16 +36,16 @@ export default function CenteredTabs() {
                     textColor="primary"
                     centered
                 >
-                    <Tab label="Home" to='/' component={Link} />
+                    <Tab label="Qualifications" to='/' component={Link} />
                     <Tab label="Projects" to='/projects' component={Link} />
-                    <Tab label="Qualifications" to='/qualifications' component={Link} />
+                    <Tab label="About" to='/about' component={Link} />
                 </Tabs>
             </Paper>
             <div>
                 <Switch>
-                    <Route exact path='/'><Home /></Route>
+                    <Route exact path='/'><Qualifications /></Route>
                     <Route exact path='/projects'><Projects /></Route>
-                    <Route exact path='/qualifications'><Qualifications /></Route>
+                    <Route exact path='/about'><Home /></Route>
                 </Switch>
             </div>
         </div>

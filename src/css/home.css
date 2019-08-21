@@ -1,39 +1,55 @@
+.home {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 50px 7vw;
+}
 .personalView {
-    margin: 50px 0;
-    padding: 10px 6vw;
+    margin: 0  0 50px 0;
+    padding: 10px;
     text-align: left;
-    color: white;
-    text-shadow: 1px 1px 1px black;
-    background: rgba(0, 0, 0, 0.2);
+    color: black;
+    background: rgb(255, 255, 255, 0.8);
+    box-shadow: 1px 2px 5px black;
 }
 
 .personalView h2 {
     font-family: 'Great Vibes', cursive;
-    font-size: 5vw;
+    font-size: 26pt;
+    margin: 0;
 }
 
 .personalView h6 {
     font-family: 'Noto Sans KR', sans-serif;
+    text-align: right;
+    margin: 0 20px 0 0;
 }
-
 .personalView p {
     font-family: 'Source Sans Pro', sans-serif;
+    padding: 10px 5vw;
+    margin: 0;
+}
+#personalView {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 8pt;
+    padding: 10px 7vw;
 }
 
 .about {
-    padding: 10px 5vw;
+    padding: 10px;
+    margin-left: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background: rgb(255, 255, 255, 0.5);
+    /* margin: 0 5vw; */
+    background: rgb(255, 255, 255, 0.8);
     box-shadow: 1px 2px 5px black;
 }
 
 .profileImage {
     background-image: url('../img/Headshots-37.jpg');
     width: 200px;
-    ;
     height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,43 +70,44 @@
     margin-bottom: 5px;
 }
 
-.profileParas {
-    width: 60vw;
-    text-align: left;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
 .logos {
-    margin-top: 50px;
-    background: rgb(255, 255, 255, 0.5);
-    padding-left: 5vw;
-    padding-right: 5vw;
+    margin: 30px 0;
+    margin-left: 50px;
+    background: rgb(255, 255, 255, 0.8);
     box-shadow: 1px 2px 5px black;
-
 }
 
 .logos img {
-    height: 100px;
-    padding-left: 2vw;
-    padding-right: 2vw;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 @media only screen and (max-width: 700px) {
+    .home{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
     .personalView h2 {
         font-size: 24pt;
     }
     .about {
-        flex-direction: column;
+        /* flex-direction: column; */
+        margin-left:0;
+    }
+    .logos{
+        margin: 10px 0 10px 0;
     }
     .profileLinks {
-        flex-direction: row;
-        padding-bottom: 10px;
+        /* flex-direction: row; */
+        padding: 0;
     }
     .profileLinks img {
         margin-left: 5px;
         margin-right: 5px;
     }
-    .profileParas{
+    .profileParas {
         width: 80%;
     }
 }
